@@ -1,0 +1,45 @@
+.dropdown-menu {
+    background: red;
+    width: 120px;
+    position: absolute;
+    top: 65px;
+    list-style: none;
+    text-align: start;
+  }
+  
+  .dropdown-menu li {
+    background: #000000;
+    cursor: pointer;
+  }
+  
+  .dropdown-menu li:hover {
+    background:  crimson;
+    
+  }
+  
+  .dropdown-menu.clicked {
+    display: none;
+  }
+  
+  .dropdown-link {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+    padding: 16px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: small;
+    
+  }
+
+  .dropdown-link:hover{
+    color: #000000;
+    text-shadow: #000000;
+  }
+  
+  @media screen and (max-width: 960px) {
+    .fa-caret-down {
+      display: none;
+    }
+  }

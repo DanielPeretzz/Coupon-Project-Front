@@ -1,0 +1,86 @@
+.create-form{
+  max-width: 500px;
+  width: fit-content; /* Fit Content make the width a long as the content */
+  font-family: Roboto, sans-serif; /* This is the font imported in the head and here it is applied as the font family */
+  display: flex; /* Display has been defined as flex */
+  flex-direction: column; /* By default the flex dorection is row and here it has been defined as column */
+  margin-left: auto; /* To center ul */
+  margin-right: auto; /* To center ul */
+  align-items: center;
+  justify-items: center;
+  margin-top: 20px;
+}
+
+
+
+h1 {
+  text-align: center; /* To make text centered */
+  color: #ffffff;
+  font-size: 2.5em;
+}
+
+ h3{
+  color: white;
+  font-size: medium;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+ }
+
+#box {
+  max-height: 600px;
+  list-style-type: none; /* To disable bullet points */
+  border: 0.1em solid #acacac;
+  padding: 0em 3em 11.7em 3em;
+  border-radius: 0.5em;
+  background-image: url(../../../Assets/Images/2192748.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+  box-shadow: 0.4em 0.4em 0.8em black; /* Shadow */
+}
+.input-main {
+  margin-bottom: 1.5em;
+  padding: 1em;
+  background-color: rgb(15, 15, 15);
+  border-radius: 2em; /* To make corners rounded */
+  box-shadow: 0.2em 0.2em 0.4em rgb(29, 27, 28) inset; /* To make shadow display inside the element */
+  color: white; /* Shadow */
+  max-width: 340px;
+  max-height: 50px;
+  border: none;
+}
+
+textarea {
+  width: 92%;
+}
+
+li ::placeholder {
+  font-family: Roboto, sans-serif;
+}
+
+.submit-btn {
+  font-family: Roboto, sans-serif;
+  margin-top: 0.7em;
+  background-color: crimson;
+  color: white;
+  font-size: 1.2em;
+  border-radius: 4em; /* To make corners rounded */
+  border: none;
+  padding: 0.8em 1.2em 0.8em 1.2em;
+  width: 100%;
+}
+
+.inline-input {
+  display: inline;
+  margin-inline: 0.3em;
+}
+
+#subject-input {
+  width: 92%;
+}
+
+.submit-btn:hover {
+  transform: scale(
+    1.06
+  ); /* To make the size of the button bigger on hovering */
+  background-color: green; /* To make the color of the button green on hovering */
+  transition: 400ms; /* Time take to apply the hover effects */
+}
